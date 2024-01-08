@@ -1,5 +1,5 @@
 (kicad_pcb
-	(version 20231014)
+	(version 20231212)
 	(generator "pcbnew")
 	(generator_version "7.99")
 	(general
@@ -457,7 +457,7 @@
 			(pinfunction "A1")
 			(pintype "passive+no_connect")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -475,7 +475,7 @@
 			(pinfunction "A2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -492,7 +492,7 @@
 			(net 2 "DOVDD")
 			(pinfunction "A3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -509,7 +509,7 @@
 			(net 4 "AVDD")
 			(pinfunction "A4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -526,7 +526,7 @@
 			(net 42 "GNDA")
 			(pinfunction "A5")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -543,7 +543,7 @@
 			(net 28 "/SCL")
 			(pinfunction "A6")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -560,7 +560,7 @@
 			(net 11 "unconnected-(U28-PadA7)")
 			(pinfunction "A7")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -577,7 +577,7 @@
 			(net 42 "GNDA")
 			(pinfunction "A8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -594,7 +594,7 @@
 			(net 15 "Net-(C109-Pad1)")
 			(pinfunction "A9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -611,7 +611,7 @@
 			(net 19 "unconnected-(U28-PadA10)")
 			(pinfunction "A10")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -629,7 +629,7 @@
 			(pinfunction "B1")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -647,7 +647,7 @@
 			(pinfunction "B2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -664,7 +664,7 @@
 			(net 3 "DVDD")
 			(pinfunction "B3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -681,7 +681,7 @@
 			(net 3 "DVDD")
 			(pinfunction "B4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -698,7 +698,7 @@
 			(net 17 "unconnected-(U28-PadB5)")
 			(pinfunction "B5")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -715,7 +715,7 @@
 			(net 34 "/SDA")
 			(pinfunction "B6")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -732,7 +732,7 @@
 			(net 18 "unconnected-(U28-PadB7)")
 			(pinfunction "B7")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -749,7 +749,7 @@
 			(net 4 "AVDD")
 			(pinfunction "B8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -766,7 +766,7 @@
 			(net 7 "Net-(C110-Pad1)")
 			(pinfunction "B9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -783,7 +783,7 @@
 			(net 42 "GNDA")
 			(pinfunction "B10")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -801,7 +801,7 @@
 			(pinfunction "C1")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -819,7 +819,7 @@
 			(pinfunction "C2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -836,7 +836,7 @@
 			(net 3 "DVDD")
 			(pinfunction "C3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -853,7 +853,7 @@
 			(net 1 "GND")
 			(pinfunction "C4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -870,7 +870,7 @@
 			(net 12 "unconnected-(U28-PadC5)")
 			(pinfunction "C5")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -887,7 +887,7 @@
 			(net 25 "/SID0")
 			(pinfunction "C7")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -904,7 +904,7 @@
 			(net 16 "unconnected-(U28-PadC8)")
 			(pinfunction "C8")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -921,7 +921,7 @@
 			(net 3 "DVDD")
 			(pinfunction "C9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -938,7 +938,7 @@
 			(net 1 "GND")
 			(pinfunction "C10")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -956,7 +956,7 @@
 			(pinfunction "D1")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -974,7 +974,7 @@
 			(pinfunction "D2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -991,7 +991,7 @@
 			(net 1 "GND")
 			(pinfunction "D3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1008,7 +1008,7 @@
 			(net 2 "DOVDD")
 			(pinfunction "D4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1025,7 +1025,7 @@
 			(net 10 "Net-(C102-Pad1)")
 			(pinfunction "D8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1042,7 +1042,7 @@
 			(net 4 "AVDD")
 			(pinfunction "D9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1059,7 +1059,7 @@
 			(net 42 "GNDA")
 			(pinfunction "D10")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1077,7 +1077,7 @@
 			(pinfunction "E1")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1095,7 +1095,7 @@
 			(pinfunction "E2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1112,7 +1112,7 @@
 			(net 3 "DVDD")
 			(pinfunction "E3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1129,7 +1129,7 @@
 			(net 1 "GND")
 			(pinfunction "E4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1146,7 +1146,7 @@
 			(net 9 "unconnected-(U28-PadE5)")
 			(pinfunction "E5")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1163,7 +1163,7 @@
 			(net 8 "unconnected-(U28-PadE6)")
 			(pinfunction "E6")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1180,7 +1180,7 @@
 			(net 20 "unconnected-(U28-PadE7)")
 			(pinfunction "E7")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1197,7 +1197,7 @@
 			(net 1 "GND")
 			(pinfunction "E8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1214,7 +1214,7 @@
 			(net 3 "DVDD")
 			(pinfunction "E9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1231,7 +1231,7 @@
 			(net 1 "GND")
 			(pinfunction "E10")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1249,7 +1249,7 @@
 			(pinfunction "F1")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1267,7 +1267,7 @@
 			(pinfunction "F2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1284,7 +1284,7 @@
 			(net 3 "DVDD")
 			(pinfunction "F3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1301,7 +1301,7 @@
 			(net 5 "unconnected-(U28-PadF4)")
 			(pinfunction "F4")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1318,7 +1318,7 @@
 			(net 27 "/XVCLK")
 			(pinfunction "F5")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1335,7 +1335,7 @@
 			(net 23 "unconnected-(U28-PadF6)")
 			(pinfunction "F6")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1352,7 +1352,7 @@
 			(net 37 "/GPIO1_VSYNC_PWDN")
 			(pinfunction "F7")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1369,7 +1369,7 @@
 			(net 4 "AVDD")
 			(pinfunction "F8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1386,7 +1386,7 @@
 			(net 13 "Net-(C108-Pad1)")
 			(pinfunction "F9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1403,7 +1403,7 @@
 			(net 42 "GNDA")
 			(pinfunction "F10")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1421,7 +1421,7 @@
 			(pinfunction "G1")
 			(pintype "passive+no_connect")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1439,7 +1439,7 @@
 			(pinfunction "G2")
 			(pintype "passive")
 			(clearance 0.0889)
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1456,7 +1456,7 @@
 			(net 2 "DOVDD")
 			(pinfunction "G3")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1473,7 +1473,7 @@
 			(net 4 "AVDD")
 			(pinfunction "G4")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1490,7 +1490,7 @@
 			(net 42 "GNDA")
 			(pinfunction "G5")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1507,7 +1507,7 @@
 			(net 41 "/GPIO0_FSIN_STROBE")
 			(pinfunction "G6")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1524,7 +1524,7 @@
 			(net 29 "/RESETB")
 			(pinfunction "G7")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1541,7 +1541,7 @@
 			(net 42 "GNDA")
 			(pinfunction "G8")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1558,7 +1558,7 @@
 			(net 14 "Net-(C107-Pad1)")
 			(pinfunction "G9")
 			(pintype "passive")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -1575,7 +1575,7 @@
 			(net 22 "unconnected-(U28-PadG10)")
 			(pinfunction "G10")
 			(pintype "passive+no_connect")
-			(teardrops allow_two_segments
+			(teardrops allow_two_segments prefer_zone_connections
 				(best_length_ratio 0.2)
 				(max_length 1)
 				(best_width_ratio 0.7)
@@ -2328,6 +2328,17 @@
 		)
 		(layer "F.Mask")
 		(uuid "4d1da2a0-9a5d-411d-ac1e-63c7365fa679")
+	)
+	(gr_rect
+		(start 130.995 65.735)
+		(end 165.275 100.015)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3e7158a4-5ca8-4401-8df9-9b00c6de248b")
 	)
 	(gr_text "12.31"
 		(at 144.185 80.445 0)
@@ -3941,6 +3952,28 @@
 		(net 42)
 		(uuid "f3928671-8e46-4fc8-9ff1-5abcabcf0d59")
 	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "7f254b13-91b5-41bf-88e3-e86a534efd14")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 131.825 66.115) (xy 131.825 90.135) (xy 156.355 90.135) (xy 160.815 85.675) (xy 160.815 67.915)
+				(xy 159.015 66.115)
+			)
+		)
+	)
 	(generated
 		(id 813b49ed-4b59-4ba1-b31f-eb0a6c752fe4)
 		(type tuning_pattern)
@@ -3967,6 +4000,7 @@
 		(last_track_width 0)
 		(last_tuning "")
 		(max_amplitude 1)
+		(min_amplitude 0.1)
 		(min_spacing 0.6)
 		(origin
 			(xy 151.04124 75.26057)
@@ -4004,6 +4038,7 @@
 		(last_track_width 0)
 		(last_tuning "")
 		(max_amplitude 1)
+		(min_amplitude 0.1)
 		(min_spacing 0.6)
 		(origin
 			(xy 142.645 75.715)
@@ -4036,6 +4071,7 @@
 		(last_track_width 0)
 		(last_tuning "")
 		(max_amplitude 1)
+		(min_amplitude 0.1)
 		(min_spacing 0.6)
 		(origin
 			(xy 142.645 75.715)
